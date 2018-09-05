@@ -1,5 +1,11 @@
 # JOUST
 This is my joust knockoff.
 
-    run command:
-python3 code3.py
+### Dependencies
+* Python
+* pygame
+
+### Running
+```
+python code3.py
+```
