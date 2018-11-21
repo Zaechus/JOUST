@@ -272,7 +272,7 @@ def UPDATE_GAME():
     event = pg.event.wait()
     keys = pg.key.get_pressed()
     counter += 1
-    if event.type == pg.QUIT or event.type == pg.KEYDOWN and event.key == pg.K_ESCAPE:
+    if event.type == pg.QUIT:
         pg.quit()
         sys.exit()
     if counter % 100 == 0:
