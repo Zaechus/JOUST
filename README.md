@@ -1,11 +1,16 @@
 # JOUST
-This is my joust knockoff.
+Joust is a game where two ostrich-riding opponents battle for victory by colliding at a higher point than the other.
 
 ### Dependencies
-* Python
-* pygame
+* Python >= 3.7.1
+* pygame >= 1.9.4
 
-### Running
-```
-python code3.py
-```
+### Controls
+#### Player 1:
+* flap: X
+* left: Z
+* right: C
+#### Player 2:
+* flap: Up arrow
+* left: Left arrow
+* right: Right arrow
